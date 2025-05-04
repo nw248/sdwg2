@@ -7,12 +7,12 @@
 [forms.py](#forms.py)  
 [urls.py](#urls.py)  
 [admin.py](#admin.py)  
-[ERD](#erd_diddy)
+[ERD](#erd)
 
 ### &nbsp;
 ### &nbsp;
 
-# <a name="install_PO">Установка проекта</a>
+# <a name="install_PO">Установка проекта</a> 
 
 ### Создайте пустую папку и загрузите в него [Start.bat](https://github.com/Alexandr1810/HostelComfort/tree/ilya/.bat) и запустите
 ### По-итогу завершения работы bat файла будут установлены все библиотеки и созданы необходимые файлы для работы сайта  
@@ -33,7 +33,7 @@ python manage.py runserver
 ### &nbsp;
 ### &nbsp;
 
-# <a name="models.py">Model.py от Sergay</a> 
+# <a name="models.py">Model.py от Sergey</a> 
 
 ## Создание  таблиц в базе данных
 
@@ -186,7 +186,7 @@ class Reviews_and_ratings(models.Model):
 
 ### &nbsp;
 
-# <a name="views.py">Views.py от Sergay</a> 
+# <a name="views.py">Views.py от Sergey</a> 
 
 #### Импорт необходимых модулей для работы с запросами и аутентификацией
 ```python
@@ -630,7 +630,7 @@ def edit_room(request, hotel_id, room_number):
 
 ### &nbsp;
 
-# <a name="forms.py">forms.py от Sergay</a> 
+# <a name="forms.py">forms.py от Sergey</a> 
 
 #### Импорт необходимых модулей и форм для создания пользовательских форм
 ```python
@@ -710,7 +710,7 @@ class RoomForm(forms.ModelForm):
 
 ### &nbsp;
 
-# <a name="urls.py">Urls.py от Sergay</a> 
+# <a name="urls.py">Urls.py от Sergey</a> 
 
 #### Импорт необходимых модулей и views для маршрутизации
 ```
@@ -741,7 +741,7 @@ urlpatterns = [
 
 ### &nbsp;
 
-# <a name="admin.py">admin.py от Sergay</a> 
+# <a name="admin.py">admin.py от Sergey</a> 
 
 #### Импортируем необходимые модули и модели для регистрации в админке
 ```python
@@ -788,4 +788,4 @@ admin.site.register(Reviews_and_ratings)
 
 ### &nbsp;
 
-### ER-диаграмма<a name="erd_diddy">![ERD](ERD.png)</a> 
+### ER-диаграмма<a name="erd">![ERD](ERD.png)</a> 
